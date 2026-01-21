@@ -27,12 +27,12 @@ echo "Installing Python dependencies..."
 pip3 install -q exchangelib
 
 # Create directories
-mkdir -p ~/.claude/skills/exchange-mail
+mkdir -p ~/.claude/skills/exchange-mail/scripts
 
 # Copy files
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-cp "$SCRIPT_DIR/src/exchange_mail.py" ~/.claude/exchange_mail.py
+cp "$SCRIPT_DIR/skills/exchange-mail/scripts/exchange_mail.py" ~/.claude/exchange_mail.py
 cp "$SCRIPT_DIR/skills/exchange-mail/SKILL.md" ~/.claude/skills/exchange-mail/SKILL.md
 
 chmod +x ~/.claude/exchange_mail.py
