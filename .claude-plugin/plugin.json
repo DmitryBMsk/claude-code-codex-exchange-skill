@@ -1,0 +1,38 @@
+{
+  "name": "claude-exchange-mail",
+  "version": "1.0.0",
+  "description": "Manage Microsoft Exchange/Outlook emails from Claude Code terminal",
+  "author": "DmitryBMsk",
+  "repository": "https://github.com/DmitryBMsk/claude-exchange-mail",
+  "license": "MIT",
+  "keywords": [
+    "exchange",
+    "outlook",
+    "email",
+    "mail",
+    "microsoft",
+    "ews"
+  ],
+  "skills": [
+    {
+      "name": "exchange-mail",
+      "path": "skills/exchange-mail/SKILL.md",
+      "description": "Full email management for Microsoft Exchange/Outlook"
+    }
+  ],
+  "dependencies": {
+    "python": ">=3.10",
+    "exchangelib": ">=5.0.0"
+  },
+  "environment": {
+    "required": [
+      "EXCHANGE_SERVER",
+      "EXCHANGE_EMAIL",
+      "EXCHANGE_USERNAME",
+      "EXCHANGE_PASSWORD"
+    ],
+    "optional": [
+      "EXCHANGE_DOMAIN"
+    ]
+  }
+}
