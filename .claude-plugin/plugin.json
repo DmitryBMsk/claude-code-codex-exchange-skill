@@ -1,9 +1,9 @@
 {
-  "name": "claude-exchange-mail",
+  "name": "claude-code-exchange-skill",
   "version": "1.0.0",
-  "description": "Manage Microsoft Exchange/Outlook emails from Claude Code terminal",
+  "description": "A skill for Claude Code and OpenAI Codex CLI to manage Microsoft Exchange/Outlook emails",
   "author": "DmitryBMsk",
-  "repository": "https://github.com/DmitryBMsk/claude-exchange-mail",
+  "repository": "https://github.com/DmitryBMsk/claude-code-exchange-skill",
   "license": "MIT",
   "keywords": [
     "exchange",
