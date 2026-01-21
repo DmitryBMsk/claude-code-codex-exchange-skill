@@ -1,4 +1,4 @@
-# Claude Code Exchange Skill
+# Claude Code & Codex MS Exchange Skill
 
 A skill for **Claude Code** and **OpenAI Codex CLI** to manage Microsoft Exchange/Outlook emails directly from your terminal.
 
@@ -25,8 +25,8 @@ A skill for **Claude Code** and **OpenAI Codex CLI** to manage Microsoft Exchang
 ### 1. Install
 
 ```bash
-git clone https://github.com/DmitryBMsk/claude-code-exchange-skill.git
-cd claude-code-exchange-skill
+git clone https://github.com/DmitryBMsk/claude-code-codex-exchange-skill.git
+cd claude-code-codex-exchange-skill
 ./install.sh
 ```
 
